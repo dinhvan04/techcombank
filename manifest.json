@@ -1,7 +1,9 @@
 {
-    "name": "Techcombank",
+    "name": "Techcombank Mobile",
     "short_name": "Techcombank",
     "start_url": "index.html",
+    "display_override": "fullscreen",
+    "description": "Techcombank Mobile là ứng dụng mới dành cho khách hàng ngân hàng bán lẻ của Techcombank. Tận hưởng chuyển tiền, thanh toán, giao dịch và quản lý tài chính, tất cả đều có sẵn trong một thiết bị.",
     "display": "fullscreen",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
@@ -10,6 +12,13 @@
             "src": "./img/icon.jpg",
             "sizes": "192x192",
             "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "./img/screenshot.png",
+            "type": "image/png",
+            "form-factor": "narrow"
         }
     ]
 }

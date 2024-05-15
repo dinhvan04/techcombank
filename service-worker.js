@@ -1,7 +1,12 @@
 self.addEventListener("install", function (event) {
 	event.waitUntil(
 		caches.open("v1").then(function (cache) {
-			return cache.addAll(["index.html"]);
+			return cache.addAll([
+				"/",
+				"/css/style.css",
+				"/img/icon.jpg",
+				"/index.html",
+			]);
 		}),
 	);
 });
