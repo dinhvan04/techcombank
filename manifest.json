@@ -3,7 +3,10 @@
     "description": "Techcombank Mobile là ứng dụng mới dành cho khách hàng ngân hàng bán lẻ của Techcombank. Tận hưởng chuyển tiền, thanh toán, giao dịch và quản lý tài chính, tất cả đều có sẵn trong một thiết bị.",
     "dir": "auto",
     "display": "fullscreen",
-    "display_override": "fullscreen",
+    "display_override": [
+        "fullscreen",
+        "window-controls-overlay"
+    ],
     "icons": [
         {
             "purpose": "any",
