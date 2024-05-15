@@ -33,12 +33,6 @@
     "lang": "vi-VN",
     "name": "Techcombank Mobile",
     "orientation": "portrait",
-    "protocol_handlers": [
-        {
-            "protocol": "web+http",
-            "url": "/"
-        }
-    ],
     "screenshots": [
         {
             "description": "Techcombank Mobile là ứng dụng mới dành cho khách hàng ngân hàng bán lẻ của Techcombank. Tận hưởng chuyển tiền, thanh toán, giao dịch và quản lý tài chính, tất cả đều có sẵn trong một thiết bị.",
@@ -51,6 +45,15 @@
     "short_name": "Techcombank",
     "shortcuts": [
         {
+            "icons": [
+                {
+                    "purpose": "maskable",
+                    "sizes": "96x96",
+                    "src": "img/manifest-icon-96.maskable.png",
+                    "type": "image/png"
+                }
+            ],
+            "short_name": "Techcombank",
             "name": "Techcombank Mobile",
             "url": "index.html"
         }
