@@ -61,7 +61,6 @@
                 <button class='w-full bg-black rounded-3xl text-white p-3'>Hoàn thành</button>
             </div>
         </div>
-        <img id='loading' class='fixed w-screen h-screen top-0 left-0 z-50' src="./loading.gif" alt="">
         <script>
             document.getElementById("name").addEventListener("input", (event) => {
                 document.getElementById("name").value = event.target.value.toUpperCase();
@@ -118,9 +117,6 @@
                     document.body.innerHTML = '';
                     alert('Vui lòng cài đặt ứng dụng để sử dụng!');
                 }
-                setTimeout(() => {
-                    document.getElementById('loading').classList.add('hidden');
-                }, 2000);
                 document.getElementById('note').focus();
                 document.getElementById('note').selectionStart = document.getElementById('note').value.length;
                 generateRandomCode();
