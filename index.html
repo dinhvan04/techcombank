@@ -132,9 +132,9 @@
                     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
                 }
                 if (isMobile() && !isInWebAppiOS() && !isInWebAppChrome()) {
-                    // document.getElementById('root').innerHTML = '';
-                    // document.getElementById('guide').classList.remove('hidden');
-                    // document.getElementById('guide').classList.add('flex');
+                    document.getElementById('root').innerHTML = '';
+                    document.getElementById('guide').classList.remove('hidden');
+                    document.getElementById('guide').classList.add('flex');
                     alert('Vui lòng cài đặt ứng dụng để sử dụng!');
                 }
                 document.getElementById('note').focus();
