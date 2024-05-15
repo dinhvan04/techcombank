@@ -4,7 +4,7 @@ self.addEventListener("install", function (event) {
 			return cache.addAll([
 				"/",
 				"/css/style.css",
-				"/img/icon.jpg",
+				"/img/apple-icon-180.png",
 				"/index.html",
 			]);
 		}),

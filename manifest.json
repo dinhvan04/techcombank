@@ -1,24 +1,60 @@
 {
-    "id": "com.techcombank.mobile.app",
-    "name": "Techcombank Mobile",
-    "short_name": "Techcombank",
-    "description": "Techcombank Mobile là ứng dụng mới dành cho khách hàng ngân hàng bán lẻ của Techcombank. Tận hưởng chuyển tiền, thanh toán, giao dịch và quản lý tài chính, tất cả đều có sẵn trong một thiết bị.",
-    "start_url": "index.html",
-    "display": "fullscreen",
     "background_color": "#ffffff",
-    "theme_color": "#ffffff",
+    "description": "Techcombank Mobile là ứng dụng mới dành cho khách hàng ngân hàng bán lẻ của Techcombank. Tận hưởng chuyển tiền, thanh toán, giao dịch và quản lý tài chính, tất cả đều có sẵn trong một thiết bị.",
+    "dir": "auto",
+    "display": "fullscreen",
+    "display_override": "fullscreen",
     "icons": [
         {
-            "src": "./img/icon.jpg",
+            "purpose": "any",
             "sizes": "192x192",
+            "src": "img/manifest-icon-192.maskable.png",
             "type": "image/png"
+        },
+        {
+            "purpose": "maskable",
+            "sizes": "192x192",
+            "src": "img/manifest-icon-192.maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "img/manifest-icon-512.maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "img/manifest-icon-512.maskable.png",
+            "type": "image/png"
+        }
+    ],
+    "lang": "vi-VN",
+    "name": "Techcombank Mobile",
+    "orientation": "portrait",
+    "protocol_handlers": [
+        {
+            "protocol": "web+http",
+            "url": "/"
         }
     ],
     "screenshots": [
         {
+            "description": "Techcombank Mobile là ứng dụng mới dành cho khách hàng ngân hàng bán lẻ của Techcombank. Tận hưởng chuyển tiền, thanh toán, giao dịch và quản lý tài chính, tất cả đều có sẵn trong một thiết bị.",
+            "form-factor": "narrow",
+            "sizes": "255x516",
             "src": "./img/screenshot.png",
-            "type": "image/png",
-            "form-factor": "narrow"
+            "type": "image/png"
         }
-    ]
+    ],
+    "short_name": "Techcombank",
+    "shortcuts": [
+        {
+            "name": "Techcombank Mobile",
+            "url": "index.html"
+        }
+    ],
+    "start_url": "index.html",
+    "theme_color": "#ffffff"
 }
